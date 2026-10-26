@@ -1,0 +1,13 @@
+# Model weights and tokenizer files are intentionally local-only.
+/models/
+*.bin
+
+# Generated executables and build products.
+**/run
+**/runq
+**/run_cuda
+*.o
+*.out
+__pycache__/
+*.py[cod]
+.venv/
